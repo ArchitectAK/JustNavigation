@@ -37,6 +37,15 @@
                             <option name="y" value="3" />
                           </Point>
                         </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_fragmentThree_to_fragmentOne">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                       </LayoutPositions>
                     </value>
                   </entry>
@@ -51,7 +60,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="nextDestination">
+                            <entry key="action_fragmentTwo_to_fragmentThree">
                               <value>
                                 <LayoutPositions />
                               </value>

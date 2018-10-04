@@ -1,9 +1,11 @@
 package com.cogitator.justnavigation
 
 import android.os.Bundle
+import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import kotlinx.android.synthetic.main.activity_main.*
@@ -21,12 +23,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return NavigationUI.navigateUp(drawerLayout as DrawerLayout, Navigation.findNavController(this, R.id.host_fragment))
+        return NavigationUI.navigateUp(drawerLayout, Navigation.findNavController(this, R.id.host_fragment))
     }
 
     override fun onBackPressed() {
-        if ((drawerLayout as DrawerLayout) .isDrawerOpen(GravityCompat.START)) {
-            (drawerLayout as DrawerLayout) .closeDrawer(GravityCompat.START)
+        if ((drawerLayout).isDrawerOpen(GravityCompat.START)) {
+            (drawerLayout).closeDrawer(GravityCompat.START)
         } else {
             super.onBackPressed()
         }
@@ -36,12 +38,12 @@ class MainActivity : AppCompatActivity() {
         val navController = Navigation.findNavController(this, R.id.host_fragment)
 
         // Update toolbar to reflect navigation
-        NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout as DrawerLayout)
+        NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
 
         // Handle nav drawer item clicks
-        navigationView.setNavigationItemSelectedListener { menuItem ->
-            menuItem.isChecked = true
-            (drawerLayout as DrawerLayout).closeDrawers()
+        (navigationView).setNavigationItemSelectedListener {
+            it.isChecked = true
+            (drawerLayout).closeDrawers()
             true
         }
 
