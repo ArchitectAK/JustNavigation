@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/just__nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/just__nav_graph"
+    app:startDestination="@id/fragmentOne">
 
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.cogitator.justnavigation.FragmentOne"
+        android:label="FragmentOne">
+        <action
+            android:id="@+id/action_fragmentOne_to_fragmentTwo"
+            app:destination="@id/fragmentTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.cogitator.justnavigation.FragmentTwo"
+        android:label="FragmentTwo">
+        <action
+            android:id="@+id/action_fragmentTwo_to_fragmentThree"
+            app:destination="@id/fragmentThree" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:name="com.cogitator.justnavigation.FragmentThree"
+        android:label="FragmentThree" >
+        <action
+            android:id="@+id/action_fragmentThree_to_fragmentOne"
+            app:destination="@id/fragmentOne" />
+    </fragment>
 </navigation>
