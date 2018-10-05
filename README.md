@@ -14,7 +14,7 @@ Some screenshots
 
 
 ### Contact - Let's connect to learn together
-- [Android App](https://play.google.com/store/apps/details?id=com.freeankit.ankitprofile) My portfolio app
+- [Android App](https://play.google.com/store/apps/details?id=com.freeankit.ankitprofile) - My portfolio app
 - [Twitter](https://twitter.com/KumarAnkitRKE)
 - [Github](https://github.com/AnkitDroidGit)
 - [LinkedIn](https://www.linkedin.com/in/kumarankitkumar/)
