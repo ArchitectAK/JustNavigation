@@ -14,13 +14,14 @@ Some screenshots
 
 
 ### Contact - Let's connect to learn together
+- [Android App](https://play.google.com/store/apps/details?id=com.freeankit.ankitprofile) My portfolio app
 - [Twitter](https://twitter.com/KumarAnkitRKE)
 - [Github](https://github.com/AnkitDroidGit)
 - [LinkedIn](https://www.linkedin.com/in/kumarankitkumar/)
 - [Facebook](https://www.facebook.com/freeankit)
-- [Slack](https://ankitdroid.slack.com)
+- [Slack](http://ankitdroid.slack.com/)
 - [Stackoverflow](https://stackoverflow.com/users/3282461/android)
-- [Android App](https://play.google.com/store/apps/details?id=com.freeankit.ankitprofile)
+- [Skype](https://join.skype.com/invite/HxwdwWAsGi0g)
 
 
 ### License
