@@ -9,6 +9,7 @@ ext {
 
     // App dependencies
     supportLibraryVersion = '1.0.0'
+    navVersion = '1.0.0-alpha06'
 }
 
 buildscript {
